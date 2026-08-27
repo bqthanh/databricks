@@ -1,0 +1,8 @@
+resources:
+  genie_spaces:
+    space_genie:
+      title: "Space Genie"
+      warehouse_id: 29b1bd3ecdffef0d
+      file_path: ../src/space_genie.geniespace.json
+      description: Description
+      parent_path: /Workspace/Users/quangthanh119@gmail.com
