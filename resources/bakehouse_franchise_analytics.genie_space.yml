@@ -1,0 +1,8 @@
+resources:
+  genie_spaces:
+    bakehouse_franchise_analytics:
+      title: "Bakehouse Franchise Analytics"
+      warehouse_id: 29b1bd3ecdffef0d
+      file_path: ../src/bakehouse_franchise_analytics.geniespace.json
+      description: Description
+      parent_path: /Workspace/Users/quangthanh119@gmail.com

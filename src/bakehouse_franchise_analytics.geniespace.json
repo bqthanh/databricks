@@ -1,0 +1,317 @@
+{
+  "data_sources": {
+    "tables": [
+      {
+        "column_configs": [
+          {
+            "column_name": "franchiseID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "new_id",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "review",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "review_date",
+            "enable_format_assistance": true
+          }
+        ],
+        "identifier": "samples.bakehouse.media_customer_reviews"
+      },
+      {
+        "column_configs": [
+          {
+            "column_name": "chunk_id",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "chunked_text",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "franchiseID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "review_date",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "review_uri",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          }
+        ],
+        "identifier": "samples.bakehouse.media_gold_reviews_chunked"
+      },
+      {
+        "column_configs": [
+          {
+            "column_name": "address",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "city",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "continent",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "country",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "customerID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "email_address",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "first_name",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "gender",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "last_name",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "phone_number",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "postal_zip_code",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "state",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          }
+        ],
+        "identifier": "samples.bakehouse.sales_customers"
+      },
+      {
+        "column_configs": [
+          {
+            "column_name": "city",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "country",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "district",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "franchiseID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "latitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "longitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "name",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "size",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "supplierID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "zipcode",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          }
+        ],
+        "identifier": "samples.bakehouse.sales_franchises"
+      },
+      {
+        "column_configs": [
+          {
+            "column_name": "approved",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "city",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "continent",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "district",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "ingredient",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "latitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "longitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "name",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "size",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "supplierID",
+            "enable_format_assistance": true
+          }
+        ],
+        "identifier": "samples.bakehouse.sales_suppliers"
+      },
+      {
+        "column_configs": [
+          {
+            "column_name": "cardNumber",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "customerID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "dateTime",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "franchiseID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "paymentMethod",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "product",
+            "enable_entity_matching": true,
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "quantity",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "totalPrice",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "transactionID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "unitPrice",
+            "enable_format_assistance": true
+          }
+        ],
+        "identifier": "samples.bakehouse.sales_transactions"
+      }
+    ]
+  },
+  "instructions": {
+    "text_instructions": [
+      {
+        "content": [
+          "## Visualization hint (machine-readable)\n",
+          "\n",
+          "After answering any question whose result is a SQL table, append ONE fenced\n",
+          "JSON code block as the LAST element of your response. Use exactly this schema\n",
+          "and these field names. This block is parsed by an application, not read by a\n",
+          "human — never wrap it in explanation, never omit it.\n",
+          "\n",
+          "```json\n",
+          "{\n",
+          "  \"viz\": {\n",
+          "    \"chart_type\": \"bar | line | area | point | arc | table\",\n",
+          "    \"x\":     { \"field\": \"<exact result column name>\", \"type\": \"nominal | ordinal | quantitative | temporal\" },\n",
+          "    \"y\":     { \"field\": \"<exact result column name>\", \"type\": \"quantitative | nominal | temporal\", \"aggregate\": \"sum | mean | count | none\" },\n",
+          "    \"color\": { \"field\": \"<exact result column name or null>\", \"type\": \"nominal | ordinal | quantitative\" },\n",
+          "    \"title\": \"<short chart title>\",\n",
+          "    \"reason\": \"<one short sentence on why this chart fits>\"\n",
+          "  }\n",
+          "}\n",
+          "```\n",
+          "\n",
+          "Rules for the viz block:\n",
+          "- x.field, y.field, and color.field MUST be exact, case-sensitive column names\n",
+          "  from the SQL result. Never invent a field that is not in the result.\n",
+          "- Pick chart_type from the data shape:\n",
+          "  - a date/time column on x  -> \"line\" (or \"area\" for cumulative totals)\n",
+          "  - one categorical dimension + one measure -> \"bar\"\n",
+          "  - two numeric measures -> \"point\" (scatter)\n",
+          "  - one categorical split of a single total -> \"arc\" (pie)\n",
+          "  - a single scalar value, or more than two dimensions, or no sensible\n",
+          "    encoding -> \"table\", and set x/y/color fields to null.\n",
+          "- Set color.field to null when there is no grouping/series dimension.\n",
+          "- \"type\" must reflect the column: dates/timestamps -> \"temporal\",\n",
+          "  numeric measures -> \"quantitative\", text/category -> \"nominal\",\n",
+          "  ordered buckets -> \"ordinal\".\n",
+          "- Always emit the block even when chart_type is \"table\".\n",
+          "\n",
+          "## Result size\n",
+          "Unless the user explicitly asks for all rows, limit results to the top 100\n",
+          "rows (apply LIMIT or an aggregation) so the application stays responsive."
+        ],
+        "id": "01f16f975aef1f469c25a0ca66bfcb2d"
+      }
+    ]
+  },
+  "version": 2
+}
